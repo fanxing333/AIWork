@@ -5,8 +5,8 @@ import torchvision
 from torch import nn, optim
 from torchvision.transforms import transforms
 
-from TrainingPipeline.models.AlexNet import AlexNet
-from TrainingPipeline.models.SimpleCNN import SimpleCNN
+from models.AlexNet import AlexNet
+from models.SimpleCNN import SimpleCNN
 
 
 class Train:
